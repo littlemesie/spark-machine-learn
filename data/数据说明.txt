@@ -1,0 +1,4 @@
+u.user文件:user.id、age、gender、occupation和ZIP code
+u.item文件则包含movie id、title、release date以及若干与IMDB link和电影分类相
+关的属性
+u.data文件包含user id、movie id、rating（从1到5）和timestamp
