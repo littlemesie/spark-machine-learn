@@ -167,6 +167,7 @@
   <classpathentry kind="lib" path="C:\Users\Mesie\.ivy2\cache\tomcat\jasper-runtime\jars\jasper-runtime-5.5.23.jar"/>
   <classpathentry kind="lib" path="C:\Users\Mesie\.ivy2\cache\commons-el\commons-el\jars\commons-el-1.0.jar"/>
   <classpathentry kind="lib" path="C:\Users\Mesie\.ivy2\cache\javax.servlet.jsp\jsp-api\jars\jsp-api-2.1.jar"/>
+  <classpathentry kind="lib" path="C:\Users\Mesie\.ivy2\cache\org.jblas\jblas\jars\jblas-1.2.3.jar"/>
   <classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
   <classpathentry kind="output" path="bin"/>
 </classpath>

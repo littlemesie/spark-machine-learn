@@ -4,7 +4,7 @@
 		module="spark-machine-learn_2.11"
 		revision="1.0"
 		status="integration"
-		publication="20170512151457"
+		publication="20170512195459"
 	>
 		<description>
 		spark-machine-learn
@@ -36,5 +36,6 @@
 		<dependency org="org.scala-lang" name="scala-library" rev="2.11.8" conf="scala-tool->default,optional(default);compile->default(compile)"/>
 		<dependency org="org.apache.spark" name="spark-core_2.11" rev="1.2.0" conf="compile->default(compile)"/>
 		<dependency org="org.apache.spark" name="spark-mllib_2.11" rev="1.5.2" conf="compile->default(compile)"/>
+		<dependency org="org.jblas" name="jblas" rev="1.2.3" conf="compile->default(compile)"/>
 	</dependencies>
 </ivy-module>

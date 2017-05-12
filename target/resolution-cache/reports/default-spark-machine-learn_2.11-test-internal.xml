@@ -7,8 +7,20 @@
 		revision="1.0"
 		conf="test-internal"
 		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool"
-		date="20170512151457"/>
+		date="20170512195459"/>
 	<dependencies>
+		<module organisation="org.jblas" name="jblas">
+			<revision name="1.2.3" status="release" pubdate="20130213222349" resolver="Nexus osc thirdparty " artresolver="Nexus osc thirdparty " homepage="http://jblas.org/" downloaded="true" searched="true" default="false" conf="default, compile, runtime, default(compile), master" position="162">
+				<license name="BSD 3-clause style license" url="http://opensource.org/licenses/BSD-3-Clause"/>
+				<metadata-artifact status="successful" details="" size="3875" time="1190" location="C:\Users\Mesie\.ivy2\cache\org.jblas\jblas\ivy-1.2.3.xml" searched="true" original-local-location="C:\Users\Mesie\.ivy2\cache\org.jblas\jblas\ivy-1.2.3.xml.original" origin-is-local="false" origin-location="https://code.lds.org/nexus/content/groups/plugin-repo/org/jblas/jblas/1.2.3/jblas-1.2.3.pom"/>
+				<caller organisation="default" name="spark-machine-learn_2.11" conf="test, compile, provided, test-internal, runtime, optional" rev="1.2.3" rev-constraint-default="1.2.3" rev-constraint-dynamic="1.2.3" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="jblas" type="jar" ext="jar" status="successful" details="" size="7487233" time="35548" location="C:\Users\Mesie\.ivy2\cache\org.jblas\jblas\jars\jblas-1.2.3.jar">
+						<origin-location is-local="false" location="https://code.lds.org/nexus/content/groups/plugin-repo/org/jblas/jblas/1.2.3/jblas-1.2.3.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
 		<module organisation="org.apache.spark" name="spark-mllib_2.11">
 			<revision name="1.5.2" status="release" pubdate="20151104043007" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://spark.apache.org/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="70">
 				<license name="Apache 2.0 License" url="http://www.apache.org/licenses/LICENSE-2.0.html"/>
@@ -1609,7 +1621,7 @@
 				<caller organisation="org.apache.hadoop" name="hadoop-common" conf="compile, runtime" rev="1.7.4" rev-constraint-default="1.7.4" rev-constraint-dynamic="1.7.4" callerrev="2.3.0"/>
 				<caller organisation="org.apache.avro" name="avro-ipc" conf="compile, runtime" rev="1.7.7" rev-constraint-default="1.7.7" rev-constraint-dynamic="1.7.7" callerrev="1.7.7"/>
 				<artifacts>
-					<artifact name="avro" type="jar" ext="jar" status="successful" details="" size="436303" time="3335" location="C:\Users\Mesie\.ivy2\cache\org.apache.avro\avro\jars\avro-1.7.7.jar">
+					<artifact name="avro" type="jar" ext="jar" status="no" details="" size="436303" time="0" location="C:\Users\Mesie\.ivy2\cache\org.apache.avro\avro\jars\avro-1.7.7.jar">
 						<origin-location is-local="false" location="https://code.lds.org/nexus/content/groups/plugin-repo/org/apache/avro/avro/1.7.7/avro-1.7.7.jar"/>
 					</artifact>
 				</artifacts>

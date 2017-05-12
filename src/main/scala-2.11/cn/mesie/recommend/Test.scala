@@ -24,5 +24,7 @@ object Test {
     rating.rating)).foreach(println)
     
     println(titles(123))
+    val itemId = 567
+    println(titles(itemId))
   }
 }
