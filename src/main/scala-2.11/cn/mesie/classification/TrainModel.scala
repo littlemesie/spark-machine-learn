@@ -29,6 +29,8 @@ object TrainModel {
       "?") 0.0 else d.toDouble)
       LabeledPoint(label, Vectors.dense(features))
     }
+//    data.foreach( x => print(x + " "))
+//    System.exit(0)
     //将负值设置为0,主要用于贝叶斯算法
     val nbData = records.map { r =>
       val trimmed = r.map(_.replaceAll("\"", ""))

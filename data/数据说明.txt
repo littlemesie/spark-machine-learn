@@ -1,4 +1,22 @@
-u.user�ļ�:user.id��age��gender��occupation��ZIP code
-u.item�ļ������movie id��title��release date�Լ�������IMDB link�͵�Ӱ������
-�ص�����
-u.data�ļ�����user id��movie id��rating����1��5����timestamp
+u.user文件:user.id、age、gender、occupation和ZIP code
+u.item文件则包含movie id、title、release date以及若干与IMDB link和电影分类相关的属性
+u.data文件包含user id、movie id、rating（从1到5）和timestamp
+u.genre文件题材的映射关系
+
+day.csv和hour.csv文件特征说明：
+instant,dteday,season,yr,mnth,holiday,weekday,workingday,weathersit,temp,atemp,hum,windspeed,casual,registered,cnt
+ instant：记录ID
+ dteday：时间
+ season：四季节信息，如spring、summer、winter和fall
+ yr：年份（2011或者2012）
+ mnth：月份
+ hr：当天时刻
+ holiday：是否是节假日
+ weekday：周几
+ workingday：当天是否是工作日
+ weathersit：表示天气类型的参数
+ temp：气温
+ atemp：体感温度
+ hum：湿度
+ windspeed：风速
+ cnt：目标变量，每小时的自行车租用量
